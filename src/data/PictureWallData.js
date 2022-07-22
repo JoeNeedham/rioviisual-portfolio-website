@@ -1,6 +1,3 @@
-import React from "react";
-
-
 export const pictureWallData = [
 	{
 		img: './assets/picture1.jpg',

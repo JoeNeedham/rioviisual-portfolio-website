@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "../../GlobalStyles";
 import { pictureWallData } from "../../data/PictureWallData";
 import { PhotoGallery,
-        PictureColumn,
         PictureWrapper,
         Pictures
 } from "./PictureWallStyles";
