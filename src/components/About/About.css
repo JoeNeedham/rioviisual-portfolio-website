@@ -1,0 +1,44 @@
+.main-container {
+    display: flex;
+}
+
+.container {
+    margin-top: 7.5rem;
+    margin-left: 5rem;
+    width: 50vw;
+    height: 60vh !important;
+    border: 2px solid black;
+    padding: 32px;
+    line-height: 1.5;
+}
+
+
+.picture-container {
+    margin-top: 7.5rem;
+    margin-left: 2rem;
+    width: 50vw;
+    height: 60vh;
+}
+
+.main-container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container p{
+    font-size: calc(0.2rem + 1vw);
+}
+@media screen and (max-width: 700px) {
+
+    .picture-container{
+        position: absolute;
+        top: 250px;
+        left: 65px;
+    }
+    .container{
+        width: 60vw;
+        height: 26vh !important;
+    }
+    .main-container{
+    }
+} 
