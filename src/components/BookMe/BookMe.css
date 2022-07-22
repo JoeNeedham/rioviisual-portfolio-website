@@ -12,7 +12,7 @@
     display: flex;
 }
 
-.picture-container {
+.picture-containerr {
     margin-top: 7.5rem;
     margin-left: 2rem;
     width: 50vw;
@@ -85,3 +85,12 @@ textarea:focus {
 .form > button:hover {
     background-color: lightgray;
 }
+@media screen and (max-width: 700px) {
+
+    .containerr{
+        width: 66vw;
+    }
+    .picture-containerr{
+        display: none;
+    }
+} 

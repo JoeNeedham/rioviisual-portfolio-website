@@ -60,7 +60,7 @@ const BookMe = () => {
                 <button type='submit'>Submit</button>
             </form>
         </div>
-        <div className='picture-container'>
+        <div className='picture-containerr'>
             <img src='./assets/picture23.jpg' alt='pic' />
         </div>
     </div>
